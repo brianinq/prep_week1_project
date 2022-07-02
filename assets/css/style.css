@@ -8,6 +8,8 @@ body{
     background-color: #FAFAFA;
     color: #333;
 }
+
+/* Navbar */
 header{
     width: 100vw;
     height: 10vh;
@@ -59,4 +61,44 @@ li {
     font-size: 1.2rem;
     font-weight: 600;
     cursor: pointer;
+}
+.btn-play{
+    cursor: pointer;
+    margin-left: 3rem;
+}
+.landing{
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    margin: 0 auto;
+}
+.content{
+    width: 100vw;
+    margin-top: 4rem;
+}
+.img {
+    width: 50%;
+    padding: 2rem 0;
+}
+img{
+    max-width: 100%;
+    min-height: 100%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    object-fit: cover;
+}
+.headline h3{
+    font-size: 2.5rem;
+    margin: 2rem 0;
+    width: 50%;
+    color: #0F298B;
+}
+.headline p{
+    font-size: 1.7rem;
+    margin-bottom: 2rem;
+}
+.more{
+    display: flex;
+    align-items: center;
 }
