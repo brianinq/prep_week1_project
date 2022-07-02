@@ -54,10 +54,11 @@ li {
 }
 .btn{
     color: #fff;
-    padding: 0.5rem 1rem;
+    padding: 0.7rem 1rem;
     border: none;
     border-radius: 5px;
     background: #2549D3;
+    text-align: center;
     font-size: 1.2rem;
     font-weight: 600;
     cursor: pointer;
@@ -79,14 +80,13 @@ li {
 }
 .img {
     width: 50%;
-    padding: 2rem 0;
+    padding-left: 2rem ;
+    height: 30px;
 }
 img{
     max-width: 100%;
     min-height: 100%;
-    flex-grow: 1;
-    flex-shrink: 1;
-    object-fit: cover;
+    object-fit: contain;
 }
 .headline h3{
     font-size: 2.5rem;
@@ -101,4 +101,26 @@ img{
 .more{
     display: flex;
     align-items: center;
+}
+.search{
+    width: 70vw;
+    margin: 5rem auto;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.5rem;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,.1);
+}
+.search h4{
+    font-size: 1.3rem;
+    color: #0F298B;
+}
+.arrow{
+border: solid #0F298B;
+border-width: 0 4px 4px 0;
+display: inline-block;
+padding: 3px;
+transform: rotate(45deg);
 }
