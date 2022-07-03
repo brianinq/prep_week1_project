@@ -253,6 +253,22 @@ transform: rotate(45deg);
     max-width: 100%;
     object-fit: contain;
 }
-.property .specifics{
+.specifics{
     padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.specifics h4{
+    color: #000;
+    margin-bottom: 5px;
+}
+.specifics h5{
+    color: #0F298B;
+    margin-top: 5px;
+}
+.view-more{
+    float: right;
+    font-weight: normal;
+    border-radius: 20px;
+    margin: 2rem 0;
 }
