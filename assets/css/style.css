@@ -69,20 +69,19 @@ li {
     margin-left: 3rem;
 }
 .landing{
-    height: 50vh;
     display: flex;
     justify-content: space-between;
     width: 80vw;
+    height: 50vh;
     margin: 0 auto;
 }
 .content{
     width: 100vw;
-    margin-top: 4rem;
+    margin: 4rem 0;
 }
-.img {
+.landing img{
     width: 50%;
-    padding-left: 2rem ;
-    height: 30px;
+    margin-left: 50px;
 }
 img{
     max-width: 100%;
@@ -92,7 +91,7 @@ img{
 .headline h3{
     font-size: 2.5rem;
     margin: 2rem 0;
-    width: 50%;
+    padding-right: 40px;
     color: #0F298B;
 }
 .headline p{
@@ -153,10 +152,11 @@ transform: rotate(45deg);
 }
 .cards{
     display: flex;
-    margin: 5rem;
+    margin: 5rem 0;
 }
 .card:nth-child(2){
     box-shadow: 2px 2px 40px rgba(0,0,0,.1);
+    margin: 0 50px;
 }
 .card {
     background: #fff;
@@ -166,7 +166,6 @@ transform: rotate(45deg);
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin: 20px;
     text-align: center;
     border-radius: 2px;
 }
@@ -186,4 +185,30 @@ transform: rotate(45deg);
 .card p{
     font-size: 1.2rem;
     margin-bottom: 100px;
+}
+.why-us{
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    height: 40vh;
+    margin: auto;
+}
+.why-us img{
+
+    margin-right: 50px;
+}
+.why-us h3{
+    color:#0F298B;
+    font-size: 2rem;
+    padding: 2rem 0;
+}
+.why-us p{
+    font-size: 1.3rem;
+}
+.qualities{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    align-items: center;
+    /* text-align: center; */
 }
