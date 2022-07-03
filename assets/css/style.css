@@ -7,6 +7,7 @@
 body{
     background-color: #FAFAFA;
     color: #333;
+    overflow-x: hidden;
 }
 
 /* Navbar */
@@ -26,7 +27,7 @@ nav{
     width: 80vw;
     margin: 0px auto;
 }
-nav .logo{
+.logo{
     font-family: 'Oleo Script', cursive;
     font-weight: 500;
     color: #000;
@@ -218,6 +219,9 @@ transform: rotate(45deg);
     align-items: center;
     /* text-align: center; */
 }
+.qualities h4{
+    padding: 10px 0;
+}
 
 /* features section */
 .feature {
@@ -296,4 +300,41 @@ transform: rotate(45deg);
 }
 .customer h4{
     font-size: 1.6rem;
+}
+footer{
+    background: #0F298B;
+    width: 100vw;
+    margin-top: 12rem;
+}
+.footer .logo{
+    color: #fff;
+    font-size: 2.5rem;
+}
+.footer {
+    width: 80vw;
+    margin: 0 auto;
+    padding-top: 4rem;
+    padding-bottom: 10rem;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content: space-between;
+}
+.footer h3{
+    color: #fff;
+    font-size: 2rem;
+    cursor: pointer;
+    margin: 2rem 0;
+}
+.desctiption, .about, .services, .resources {
+    width: calc(100%/4);
+}
+.desctiption{
+    flex: 1;
+}
+.footer a, .footer p, .footer li{
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 0;
+    font-size: 1.2rem;
 }
